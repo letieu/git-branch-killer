@@ -12,7 +12,7 @@ This script (`remove.mjs`) helps you delete Git branches locally or remotely. Be
 
 ## How to Use
 
-1. Clone the Git repository where you want to delete branches or download the script (`remove.mjs`) to your local system.
+1. Clone the Git repository or download the script (`remove.mjs`) to your local system.
 
 2. Run the script using `zx` in your repository's root directory. For example:
 
