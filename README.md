@@ -18,7 +18,7 @@ This script (`remove.mjs`) helps you delete Git branches locally or remotely. Be
 
    ```bash
    cd my-project
-   zx /path/to/script/remove.mjs
+   zx /path/to/remove.mjs
    ```
 
 ## Options
@@ -28,13 +28,13 @@ The script supports the following options:
 - `--remote`: Use this flag to delete remote branches instead of local branches. For example:
 
   ```bash
-  zx /path/to/script/remove.mjs --remote
+  zx /path/to/remove.mjs --remote
   ```
 
 - `--exclude`: You can exclude specific branches from deletion, by default the script will not delete the `main, master, develop, development, and test` branches. For example:
 
   ```bash
-  zx /path/to/script/remove.mjs --exclude=feature-x,bugfix-y
+  zx /path/to/remove.mjs --exclude=feature-x,bugfix-y
   ```
 
 ## Important Notes
